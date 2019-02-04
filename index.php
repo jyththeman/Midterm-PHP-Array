@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-    
+<body>   
 <?php  
     $ppl = array(
         "Peter"=>"35",
@@ -13,7 +11,6 @@
     foreach($ppl as $name => $age){
         echo "Key=$name, value=$age"."<br>";
     }
-    
 ?>  
 </body>
 </html>
